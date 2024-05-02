@@ -8,7 +8,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mosiur99&label=Profile%20views&color=0e75b6&style=flat" alt="mosiur99" /> </p>
 
-- 🌱 I’m currently learning **.NET Framework**
+- 🌱 I’m currently working with **Spring Boot Framework**
 
 - 📫 How to reach me **mosiurzzaman99@gmail.com**
 
