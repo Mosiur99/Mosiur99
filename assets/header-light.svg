@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 300" role="img" aria-label="Mosiur Zzaman, backend engineer">
+  <rect width="1280" height="300" fill="#ffffff"/>
+  <text x="48" y="104" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="76" font-weight="700" letter-spacing="-1.5" fill="#1f2328">Mosiur Zzaman</text>
+  <text x="50" y="152" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" fill="#59636e">Backend engineer. Java, Spring Boot, event-driven systems.</text>
+  <path id="flow" d="M110 232 H1100" stroke="#d1d9e0" stroke-width="3" fill="none"/>
+  <circle cx="110" cy="232" r="9" fill="#ffffff" stroke="#1f2328" stroke-width="3"/>
+  <text x="110" y="274" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="21" fill="#59636e">POST /order</text>
+  <circle cx="440" cy="232" r="9" fill="#ffffff" stroke="#1f2328" stroke-width="3"/>
+  <text x="440" y="274" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="21" fill="#59636e">Spring Boot</text>
+  <circle cx="770" cy="232" r="9" fill="#ffffff" stroke="#1f2328" stroke-width="3"/>
+  <text x="770" y="274" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="21" fill="#59636e">Kafka</text>
+  <circle cx="1100" cy="232" r="9" fill="#ffffff" stroke="#1f2328" stroke-width="3"/>
+  <text x="1100" y="274" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="21" fill="#59636e">Consumers</text>
+  <circle r="7" fill="#d9480f">
+    <animateMotion dur="5s" repeatCount="indefinite" path="M110 232 H1100" keyPoints="0;0.333;0.333;0.667;0.667;1;1" keyTimes="0;0.2;0.3;0.5;0.6;0.8;1" calcMode="linear"/>
+  </circle>
+</svg>
