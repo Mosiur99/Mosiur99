@@ -20,6 +20,11 @@ I own features from requirement to production. I break the requirement down line
 | Messy, duplicated data | Normalized, schema-driven data models |
 | Slow pages and reports | Redis caching and SQL tuning on million-row tables |
 | Access handled by hand | Self-service role-based access control |
+| Long batch jobs locking tables | Small id-based chunks instead of one big transaction |
+| Pages slowed by nested loops | The right data structure: maps and DFS instead of O(N²) |
+| Database, cache and search index drifting apart | Index updates after commit, targeted column updates where cached state can race |
+| Bad data crashing jobs | Foreign keys, unique constraints and atomic updates, managed with Liquibase |
+| Bugs that only happen in production | Evidence from logs first, then the infrastructure: proxies, replicas, background threads |
 | Shipping safely | Testing, stakeholder sign-off, production monitoring, rollback plans |
 
 ### Projects you can read
@@ -31,7 +36,7 @@ I own features from requirement to production. I break the requirement down line
 ### What I work with
 
 **Main:** Java, Spring Boot, Hibernate, MySQL, PostgreSQL, Redis, Kafka, RabbitMQ  
-**Also:** MongoDB, Elasticsearch, Docker, JUnit 5, Testcontainers, Amazon S3  
+**Also:** MongoDB, Elasticsearch, Hibernate L2 cache, Liquibase, Flyway, Docker, JUnit 5, Mockito, Testcontainers, Amazon S3  
 **AI-assisted development:** Claude Code (custom skills, agentic workflows), Cursor, ChatGPT
 
 ### Competitive programming
