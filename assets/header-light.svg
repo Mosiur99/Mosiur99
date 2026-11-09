@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 300" role="img" aria-label="Mosiur Zzaman, backend engineer">
   <rect width="1280" height="300" fill="#ffffff"/>
   <text x="48" y="104" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="76" font-weight="700" letter-spacing="-1.5" fill="#1f2328">Mosiur Zzaman</text>
-  <text x="50" y="152" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" fill="#59636e">Backend engineer. Java, Spring Boot, event-driven systems.</text>
+  <text x="50" y="152" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" fill="#59636e">Backend engineer. Java, Spring Boot, event-driven systems, AI-automated workflows.</text>
   <path id="flow" d="M110 232 H1100" stroke="#d1d9e0" stroke-width="3" fill="none"/>
   <circle cx="110" cy="232" r="9" fill="#ffffff" stroke="#1f2328" stroke-width="3"/>
   <text x="110" y="274" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="21" fill="#59636e">POST /order</text>
