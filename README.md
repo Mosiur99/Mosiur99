@@ -28,14 +28,14 @@ AI is part of that loop. I use Claude Code with custom skills and agentic workfl
 
 ### Projects you can read
 
+- **[PayLedger](https://github.com/Mosiur99/payledger)**: a double-entry ledger and payments backend in two services. Transfers stay correct under concurrency and retries: accounts are locked in a fixed order, idempotency keys commit with the money, and a transactional outbox publishes every movement to Kafka for an idempotent consumer with a dead-letter topic. Secured with Keycloak, observed with Prometheus, Grafana and tracing, tested with Testcontainers, and shipped with GitHub Actions and a Helm chart.
 - **[Real-Time Score Broadcaster](https://github.com/Mosiur99/Real_Time_Score_Broadcaster)**: pushes live scores to every browser across multiple app servers, using RabbitMQ fanout and WebSocket/STOMP. Scores are stored as an append-only event log.
-- **[MicroURL](https://github.com/Mosiur99/URL_Shortener)**: URL shortener with click analytics on Redis, SHA-256 deduplication, and integration tests with Testcontainers. [Live demo](https://url-shortener-jp2d.onrender.com)
 - **[SmartTour](https://github.com/Mosiur99/Smart_Tour)**: trip planner for all 64 districts of Bangladesh, with a budget calculator and PDF export. [Live demo](https://smart-tour-700j.onrender.com)
 
 ### What I work with
 
 **Main:** Java, Spring Boot, Hibernate, MySQL, PostgreSQL, Redis, Kafka, RabbitMQ  
-**Also:** MongoDB, Elasticsearch, Liquibase, Flyway, Docker, GitLab CI, JUnit 5, Mockito, Testcontainers, Amazon S3  
+**Also:** MongoDB, Elasticsearch, Liquibase, Flyway, Spring Security, Keycloak, Docker, Kubernetes, Helm, GitHub Actions, GitLab CI, Prometheus, Grafana, JUnit 5, Mockito, Testcontainers, Amazon S3  
 **AI-assisted development:** Claude Code (custom skills, agentic workflows), Cursor, ChatGPT
 
 ### Competitive programming
